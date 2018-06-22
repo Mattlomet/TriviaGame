@@ -7,3 +7,16 @@
 .marginTop{
     margin-top: 5%;
 }
+.underQuestions{
+    width: 55%;
+    margin: 0 auto;
+}
+.greenColor{
+    background: lightgreen;
+}
+.displayNone{
+    display: none;
+}
+.displayButton{
+    display: block;
+}

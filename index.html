@@ -8,6 +8,7 @@
     <title>Trivia Game</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -17,39 +18,29 @@
             <p class="lead">Select an answer for each question before the time runs out!</p>
         </div>
     </div>
-    <div class="container marginBody">
-        <div class="row marginBottom">
-            <div class="col-sm-12 centerText ">
-                <h2 id="timeLeft">Time Left:</h2>
+    <div>
+
+        <div class="container marginBody">
+            <div class="row marginBottom">
+                <div class="col-sm-12 centerText ">
+                    <h1>TIME LEFT:</h1>
+                    <h2 id="timeLeft"></h2>
+                </div>
             </div>
-        </div>
-        <div class="row marginTop">
-            <div class="col-sm-12 centerText ">
-                <h3 class="question">Question</h3>
-                <div class="choices"></div>
+            <div class="row underQuestions">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button id="submitAnswers">Submit</button>
+                        
+                    </div>
+                </div>
             </div>
+            
         </div>
-        <div class="row marginTop">
-            <div class="col-sm-12 centerText ">
-                <h3 class="question">Question</h3>
-                <div class="choices"></div>
-            </div>
-        </div>
-        <div class="row marginTop">
-            <div class="col-sm-12 centerText ">
-                <h3 class="question">Question</h3>
-                <div class="choices"></div>
-            </div>
-        </div>
-        <div class="row marginTop">
-            <div class="col-sm-12 centerText ">
-                <h3 class="question">Question</h3>
-                <div class="choices"></div>
-            </div>
-        </div>
+        <!-- <button id="resetButton" class="displayNone">reset the Game!</button> -->
     </div>
-
-    <script src="assets/javascript/app.js"></script>
-</body>
-
+        
+        <script src="assets/javascript/app.js"></script>
+    </body>
+    
 </html>
